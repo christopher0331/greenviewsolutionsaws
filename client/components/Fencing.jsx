@@ -1,4 +1,5 @@
-import { useEffect, React } from 'react';
+import { useEffect } from 'react';
+import * as React from 'react';
 import FenceTypes from './FenceTypes.jsx';
 
 const Fencing = (props) => {

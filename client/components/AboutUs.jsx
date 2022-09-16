@@ -1,6 +1,5 @@
-import {useEffect, React } from 'react';
-// import Overview from './Overview.jsx';
-// import OurProcess from './OurProcess.jsx';
+import { useEffect } from 'react';
+import * as React from 'react';
 
 const AboutUs = (props) => {
 
@@ -10,8 +9,8 @@ const AboutUs = (props) => {
 
     return(
         <div>
-         //   <Overview />
-         //   <OurProcess />
+           <Overview />
+           <OurProcess />
         </div>
 
     )

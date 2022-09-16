@@ -1,6 +1,4 @@
-import { React, useState, lazy } from 'react';
-import {Button, Modal } from 'react-bootstrap';
-//import PortfolioMed from './PortfolioMed.jsx';
+import * as React from 'react';
 import PortfolioLarge from './PortfolioLarge.jsx';
 
 const Portfolio = () =>  {

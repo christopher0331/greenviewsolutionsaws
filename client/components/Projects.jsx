@@ -1,4 +1,5 @@
-import { React, lazy, useState } from 'react';
+import { lazy, useState } from 'react';
+import * as React from 'react';
 import { Card, Button, Modal } from 'react-bootstrap';
 
 const Projects = () => {

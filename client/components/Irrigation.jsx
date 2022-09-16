@@ -1,5 +1,5 @@
-import { useEffect, React} from 'react';
-import BackflowTests from './BackflowTests.jsx';
+import { useEffect } from 'react';
+import * as React from 'react';
 
 const Irrigation = (props) => {
     

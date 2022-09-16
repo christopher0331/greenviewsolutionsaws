@@ -1,4 +1,5 @@
-import {React, useState, lazy} from 'react';
+import { useState } from 'react';
+import * as React from 'react';
 import styled from 'styled-components';
 import Arrows from './Arrows.js';
 import ArrowLeftStyle from './ArrowLeftCSS';

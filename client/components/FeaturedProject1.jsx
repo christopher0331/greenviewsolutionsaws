@@ -1,6 +1,5 @@
-import React, {Component} from 'react';
-// import ResidentialFence from './assets/ResidentialFence.jpeg';
-// import residential2 from './assets/residential2.JPG';
+import * as React from 'react';
+import {Component} from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import  { faChevronCircleLeft, faChevronCircleRight } from '@fortawesome/free-solid-svg-icons';
 

@@ -1,4 +1,5 @@
-import React, { Component } from 'react'; 
+import { Component } from 'react'; 
+import * as React from 'react';
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-icons"

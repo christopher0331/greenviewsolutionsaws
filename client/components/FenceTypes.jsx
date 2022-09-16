@@ -1,5 +1,4 @@
-import { React, lazy } from 'react';
-
+import * as React from 'react';
 const FenceTypes = () => {
 
     const HorizontalPrivacy = "https://greenviewsolutionsimages.s3-us-west-1.amazonaws.com/HomePage/SmallSizedWEBP/ResidentialHP.webp"
