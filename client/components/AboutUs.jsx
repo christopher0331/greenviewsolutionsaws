@@ -1,5 +1,7 @@
 import { useEffect } from 'react';
 import * as React from 'react';
+import Overview from './Overview.jsx';
+import OurProcess from './OurProcess.jsx';
 
 const AboutUs = (props) => {
 

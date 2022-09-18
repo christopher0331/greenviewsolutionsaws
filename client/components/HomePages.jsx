@@ -22,18 +22,6 @@ const HomePage = (props) => {
       if(innerWidth < 684){
         return  (
             <div>
-                
-                    <meta name="description" 
-                          content="GreenView Solutions is the most trusted name in Denver, CO 
-                                    for wood fencing, chain link fencing, wrought iron fencing 
-!                                    and commercial fencing! Call us at 3030.358.8168 and get 
-                                    placed on our calendar today! We've got 5 star reviews 
-                                    everywhere you can find us. GreenView Solutions also 
-                                    has certified irrigation 
-                                    experts that can install irrigation systems, or test your 
-                                    backflow devices."
-                            keywords="fencing, irrigation, backflow testing"
-                        />
                 <div className="ImagesMappesBox">
                    <ImagesMappedSmall />
                 </div>
@@ -78,18 +66,6 @@ const HomePage = (props) => {
       } else {
         return(
             <div>
-                    <meta name="description" 
-                          content="GreenView Solutions is the most trusted name in Denver, CO 
-                                    for wood fencing, chain link fencing, wrought iron fencing 
-                                    and commercial fencing! Call us at 3030.358.8168 and get 
-                                    placed on our calendar today! We've got 5 star reviews 
-                                    everywhere you can find us. GreenView Solutions also 
-                                    has certified irrigation 
-                                    experts that can install irrigation systems, or test your 
-                                    backflow devices. We serve the greater Denver 
-                                    area, including Longmont CO, Erie CO, Arvada CO, 
-                                    Frederick CO, and others." 
-                        />
                 <div className="ImagesMappesBox">
                    <ImagesMapped />
                 </div>

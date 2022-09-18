@@ -22,17 +22,17 @@ const CustomFences = lazy(() => import('./CustomFences.jsx'));
 const Backflow = lazy(() => import('./BackFlow.jsx'));
 const CommercialFencing = lazy(() => import('./CommercialFencing.jsx'));
 const AdminUse = lazy(() => import('./AdminUse.js'));
- 
+ import Menu from './Menu.jsx';
 function App() {
 
   return (
     <div className="App">
+      
       <Router>
         <Suspense fallback={<div>Loading...</div>}>
             <Header />
 	            <Routes>
                   <Route path="/" exact element={<HomePage />} />
-                  <Route path="/services" element={<HomePage />}/>
                   <Route path="/about-us" element={<AboutUs />}/>
                   <Route path="/fencing" element={<Fencing />} />
                   <Route path="/irrigation" element={<Irrigation />} />
