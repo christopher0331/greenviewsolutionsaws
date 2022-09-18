@@ -9,11 +9,11 @@ const Portfolio = () =>  {
         )
     } 
 
-//	if(window.innerWidth < 1106){
+	// if(window.innerWidth < 1106){
   //      return (
-    //        <PortfolioMed />
-     //   )
-//    }
+  //          <PortfolioMed />
+  //      )
+  //  }
 }
 
 export default Portfolio;
